@@ -76,7 +76,7 @@ cd /opt
 
 
 cd 
-sudo apt install eyewitness ca-certificates gh rsyslog exiftool ntpdate tree gpp-decrypt pdfid wmi-client build-essential pkg-config libkrb5-dev libclang-dev libevtx-utils chainsaw bloodhound -y
+sudo apt install eyewitness ca-certificates rsyslog exiftool ntpsec-ntpdate locate tree gpp-decrypt pdfid wmi-client build-essential pkg-config libkrb5-dev libclang-dev libevtx-utils chainsaw bloodhound -y
 pipx install bloodyad pywhisker updog
 pipx ensurepath
 
