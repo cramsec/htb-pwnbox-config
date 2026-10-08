@@ -5,25 +5,25 @@ sudo apt update
 cd /opt
 sudo mkdir chisel
 cd chisel
-sudo wget https://github.com/jpillora/chisel/releases/download/v1.11.5/chisel_1.11.5_windows_amd64.zip
-sudo gunzip chisel_1.11.5_windows_amd64.zip
-sudo mv chisel_1.10.1_windows_amd64 chisel.exe
-sudo wget https://github.com/jpillora/chisel/releases/download/v1.11.5/chisel_1.11.5_linux_amd64.gz
-sudo gunzip chisel_1.11.5_linux_amd64.gz
-sudo mv chisel_1.10.1_linux_amd64 chisel
+sudo wget https://github.com/jpillora/chisel/releases/download/v1.12.0/chisel_1.12.0_windows_amd64.zip
+sudo gunzip chisel_1.12.0_windows_amd64.zip
+sudo mv chisel_1.12.0_windows_amd64 chisel.exe
+sudo wget https://github.com/jpillora/chisel/releases/download/v1.12.0/chisel_1.12.0_linux_amd64.gz
+sudo gunzip chisel_1.12.0_linux_amd64.gz
+sudo mv chisel_1.12.0_linux_amd64 chisel
 sudo chmod +x chisel
 cd /opt
 sudo mkdir ligolo
 cd ligolo
 sudo mkdir windows
 cd windows
-sudo wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.8.3/ligolo-ng_agent_0.8.3_windows_amd64.zip
-sudo wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.8.3/ligolo-ng_proxy_0.8.3_windows_amd64.zip
+sudo wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.8.3/ligolo-ng_agent_0.9.2_windows_amd64.zip
+sudo wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.8.3/ligolo-ng_proxy_0.9.2_windows_amd64.zip
 cd ..
 sudo mkdir linux
 cd linux
-sudo wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.8.3/ligolo-ng_proxy_0.8.3_linux_amd64.tar.gz
-sudo wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.8.3/ligolo-ng_agent_0.8.3_linux_amd64.tar.gz
+sudo wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.8.3/ligolo-ng_proxy_0.9.2_linux_amd64.tar.gz
+sudo wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.8.3/ligolo-ng_agent_0.9.2_linux_amd64.tar.gz
 cd /opt
 sudo mkdir peass
 cd peass
