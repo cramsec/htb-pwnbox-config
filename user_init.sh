@@ -58,6 +58,7 @@ cd /opt
 sudo git clone https://github.com/urbanadventurer/username-anarchy.git
 sudo git clone https://github.com/kmahyyg/mremoteng-decrypt.git
 sudo git clone https://github.com/S3cur3Th1sSh1t/PowerSharpPack.git
+sudo git clone https://github.com/ly4k/PwnKit
 sudo mv PowerSharpPack powersharppack
 sudo git clone https://github.com/dirkjanm/PKINITtools
 sudo mv PKINITtools pkinittools
